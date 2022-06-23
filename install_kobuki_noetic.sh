@@ -21,3 +21,6 @@ mv * ..
 cd .. && rmdir save
 cd ~/catkin_ws/
 catkin_make
+
+
+rosrun kobuki_ftdi create_udev_rules
